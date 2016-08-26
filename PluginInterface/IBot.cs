@@ -12,6 +12,6 @@ namespace PluginInterface
         string data { get; set; }
 
         void DoAction();
-        bool DoAnotherAction();
+        bool DoAnotherAction(string var1, int var2);
     }
 }
