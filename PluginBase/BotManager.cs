@@ -7,6 +7,7 @@ namespace PluginBase
     {
         public int version { get; set; } = 5;
         public string data { get; set; } = "this is some info.";
+        public string hiddenDataFromPlugin = "account_password";
 
         public void DoAction()
         {
